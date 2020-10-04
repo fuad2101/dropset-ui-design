@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropset | Fitness Camp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon/android-icon-36x36.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,700&family=Didact+Gothic&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <a href=""><img src="img/logo-header.svg" alt="Logo"></a>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#personalTrainer">Personal Trainer</a> </li>
+                <li><a href="#profile">Profil</a> </li>
+                <hr>
+                <li class="signin-btn"><a href="#">SIGN IN</a> </li>
+                <li class="signup-btn"><a href="#">Sign Up</a> </li>
+            </ul>
+        </nav>
+        <a href="javascript:void(0)" class="icon" onclick="dropdown()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header>
+    <main>
+        <!-- Slider -->
+        <div id="slider">
+            <img class="active" src="img/slider1.jpg" alt="Slider">
+            <img class="last-active" src="img/slider2.jpg" alt="Slider">
+        </div>
+        <div class="hidden"></div>
+        <!-- Features -->
+        <div id="features">
+            <h1>Features</h1>
+            <section class="container">
+                <article class="first">
+                    <img src="img/feature-pict-1.png" alt="Picture">
+                    <div class="desc">
+                        <h2>Exercise Program</h2>
+                        <p>Etiam erat enim, viverra a pulvinar ut, cursus et ex. Proin tincidunt dui interdum mollis
+                            lobortis. Ut eu leo urna. Praesent ante lorem, ornare facilisis mollis ac, egestas finibus
+                            quam.
+                            Donec cursus, dui in semper ullamcorper, velit dolor eleifend diam, ac molestie massa mauris
+                            in
+                            nibh. Quisque scelerisque sem vitae libero hendrerit malesuadaante. Donec vel finibus
+                            sem, eu vulputate massa. Vivamus vulputate, dui
+                            vel vulputate pretium, turpis lorem pharetra</p>
+                        <a class="button" href="">Learn More</a>
+                    </div>
+                </article>
+                <article class="second">
+                    <img src="img/feature-pict-2.png" alt="Picture">
+                    <div class="desc">
+                        <h2>Meal Plan</h2>
+                        <p>Etiam erat enim, viverra a pulvinar ut, cursus et ex. Proin tincidunt dui interdum mollis
+                            lobortis. Ut eu leo urna. Praesent ante lorem, ornare facilisis mollis ac, egestas finibus
+                            quam.
+                            Donec cursus, dui in semper ullamcorper, velit dolor eleifend diam, ac molestie massa mauris
+                            in
+                            nibh. Quisque scelerisque sem vitae libero hendrerit malesuadaante. Donec vel finibus
+                            sem, eu vulputate massa. Vivamus vulputate, dui
+                            vel vulputate pretium, turpis lorem pharetra ante, in porta mi turpis ut leo. Maecenas at
+                            odio
+                            in est accumsan tempus.</p>
+                        <a class="button" href="">Learn More</a>
+                    </div>
+                </article>
+                <article class="third">
+                    <img src="img/feature-pict-3.png" alt="Picture">
+                    <div class="desc">
+                        <h2>Get Body Goals</h2>
+                        <p>Etiam erat enim, viverra a pulvinar ut, cursus et ex. Proin tincidunt dui interdum mollis
+                            lobortis. Ut eu leo urna. Praesent ante lorem, ornare facilisis mollis ac, egestas finibus
+                            quam.
+                            Donec cursus, dui in semper ullamcorper, velit dolor eleifend diam, ac molestie massa mauris
+                            in
+                            nibh. Quisque scelerisque sem vitae libero hendrerit malesuadaante. Donec vel finibus
+                            sem, eu vulputate massa. Vivamus vulputate, dui
+                            vel vulputate pretium, turpis lorem pharetra.</p>
+                        <a class="button" href="">Learn More</a>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <!-- Personal Trainer -->
+        <div id="personalTrainer">
+            <h1>Our Personal Trainer</h1>
+            <section class="container">
+                <article>
+                    <img src="img/pt-1.png" alt="Picture">
+                    <h2>Veron Richard</h2>
+                    <h3>Professional Trainer</h3>
+                </article>
+                <article>
+                    <img src="img/pt-2.png" alt="Picture">
+                    <h2>Katty Mount</h2>
+                    <h3>Nutritionist</h3>
+                </article>
+                <article>
+                    <img src="img/pt-3.png" alt="Picture">
+                    <h2>Jerry Osborn</h2>
+                    <h3>Professional Trainer</h3>
+                </article>
+            </section>
+        </div>
+        <!--Sign Up -->
+        <div id="signup">
+            <div class="container ">
+                <h1>1 Month Free !</h1>
+                <h2>For New Member</h2>
+                <div class="form">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <button class="scale-down-center">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside class="profile">
+        <h1>Profile</h1>
+        <div class="card shadow-drop-center flicker-1">
+            <img src="img/photo.png" alt="">
+            <ul>
+                <li> Muhammad Fuad</li>
+                <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right:10px;"></i>fuadyfuady666@gmail.com
+                </li>
+                <li> <i class="fa fa-phone-square" style="margin-right:10px;"></i> +6282291986846</li>
+            </ul>
+        </div>
+    </aside>
+    <footer>
+        <div class="container">
+            <img src="img/logo-footer.png" alt="Picture">
+            <ul>
+                <li><a href="">support</a> </li>
+                <li><a href="">contact us</a> </li>
+                <li><a href="">newsletter</a> </li>
+                <li><a href="">terms & condition</a> </li>
+                <li><a href="">purchase</a> </li>
+            </ul>
+            <div class="sosmed">
+                <a href=""><img src="img/facebook-icon.svg" alt=""></a>
+                <a href=""><img src="img/twitter-icon.svg" alt=""></a>
+                <a href=""><img src="img/ig-icon.svg" alt=""></a>
+            </div>
+        </div>
+        <p>Copyright &copy;2020 DROPSET. All Rights Reserved</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
